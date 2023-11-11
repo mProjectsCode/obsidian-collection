@@ -7,7 +7,7 @@ export default defineConfig({
 	base: '/obsidian-collection',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Obsidian Collection',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
