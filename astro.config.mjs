@@ -16,6 +16,10 @@ export default defineConfig({
 					label: 'Plugin Dev',
 					autogenerate: { directory: 'Plugin Dev' },
 				},
+				{
+					label: 'Theme Dev',
+					autogenerate: { directory: 'Theme Dev' },
+				},
 			],
 			customCss: [
 				// Relative path to your custom CSS file
