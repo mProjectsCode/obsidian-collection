@@ -1,0 +1,15 @@
+:root {
+    --sl-color-accent-low: hsl(258, 88.4%, 50%);
+    --sl-color-accent: hsl(258, 88.4%, 66.1%);
+    --sl-color-accent-high: hsl(258, 88.4%, 90%);
+    --sl-color-text-accent: var(--sl-color-accent);
+    --sl-color-text-invert: var(--sl-color-white);
+}
+
+:root[data-theme="light"] {
+    --sl-color-accent-low: hsl(258, 88.4%, 50%);
+    --sl-color-accent: hsl(258, 88.4%, 66.1%);
+    --sl-color-accent-high: hsl(258, 88.4%, 90%);
+    --sl-color-text-accent: var(--sl-color-accent);
+    --sl-color-text-invert: var(--sl-color-black);
+}

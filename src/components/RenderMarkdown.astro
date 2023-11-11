@@ -1,0 +1,17 @@
+---
+import { marked } from 'marked'
+
+interface Props {
+	link: string;
+}
+
+const { link } = Astro.props;
+
+// Example: Fetch Markdown from a remote API
+// and render it to HTML, at runtime.
+// Using "marked" (https://github.com/markedjs/marked)
+const response = await fetch(link);
+const markdown = await response.text();
+const content = marked.parse(markdown);
+---
+<div set:html={content} />
