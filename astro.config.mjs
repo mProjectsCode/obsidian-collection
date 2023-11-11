@@ -11,16 +11,13 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Plugin Dev',
+					autogenerate: { directory: 'Plugin Dev' },
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+			],
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
 			],
 		}),
 	],
