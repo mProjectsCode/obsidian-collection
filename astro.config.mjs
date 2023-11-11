@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://mprojectscode.github.io',
+	base: '/obsidian-collection',
 	integrations: [
 		starlight({
 			title: 'My Docs',
