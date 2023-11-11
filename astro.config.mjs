@@ -9,7 +9,7 @@ export default defineConfig({
 		starlight({
 			title: 'Obsidian Collection',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/mProjectsCode/obsidian-collection',
 			},
 			sidebar: [
 				{
