@@ -13,7 +13,7 @@ description: Some plugins with good or interesting test setups.
   - uses Jest
   - large test suite, over 370 tests that take about a minute to run
 - [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)
-  - uses Bunt Test
+  - uses Bun Test
   - currently small test suite that runs in under a second
   - uses Happy DOM as the browser environment
   - uses a lot of dependency injection to test internal components
