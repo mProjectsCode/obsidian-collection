@@ -32,4 +32,10 @@ Component `1` and `2` are UI code and thus it does not much sense to test them. 
 Component `4` is just the adapter to the Obsidian API to read a file, so there is not much to test here.
 
 That leaves component `3`, which does not depend on the Obsidian API. It does not care about the caller and file operations are left to component `4` which can easily be swapped for a dummy component.
-Thus it makes a lot of sense to test this component.
+Thus, it makes a lot of sense to test this component.
+
+## UI Frameworks
+
+A lot of plugins with more complex UIs will reach for UI frameworks like [Svelte](https://svelte.dev/) or [React](https://react.dev/).
+Components written in those frameworks are possible to test, but it is easier to extract the logic into a separate plain TypeScript file and test that than testing the component.
+In the best case the component only gets its data passed in and then renders that data, and the logic is handled by an external component.
