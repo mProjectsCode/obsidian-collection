@@ -20,6 +20,10 @@ export default defineConfig({
 					label: 'Theme Dev',
 					autogenerate: { directory: 'Theme Dev' },
 				},
+				{
+					label: 'TTRPG',
+					autogenerate: { directory: 'TTRPG' },
+				},
 			],
 			customCss: [
 				// Relative path to your custom CSS file

@@ -24,6 +24,13 @@ Notable points about [Bun Test](https://bun.sh/docs/cli/test) are:
 
 Both are viable options and in the end you have to decide on what fits best for your plugin and workflow.
 
+## Other Frameworks
+
+There are other frameworks that people use, but I don't have any experience with them, so I will just list them here.
+
+- Vitest
+  - [Zachatoo](https://github.com/zachatoo) said on [discord](https://discord.com/channels/686053708261228577/962362830642905148/1173474875638284328) that he liked how easy it is to set up.
+
 ## Utilities
 
 - [Happy DOM](https://github.com/capricorn86/happy-dom) is a JavaScript implementation of a web browser without its graphical user interface. It includes many web standards from WHATWG DOM and HTML.

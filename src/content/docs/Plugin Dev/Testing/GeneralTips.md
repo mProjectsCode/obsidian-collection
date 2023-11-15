@@ -15,6 +15,12 @@ His examples in the talk are not in TypeScript but they can be easily translated
 Each test should only test one thing. This does not mean that a test must only have one `expect`.
 A test should do something to the subject being tested and then check that the state of the subject is what you expect with one or more `expect` calls.
 
+## Code Coverage
+
+While code coverage can be a useful metric, you have to be aware that it simply means there is a test that runs this piece of code, but that does not say anything about the quality of the test.
+
+That being said, I find coverage reports quite useful to find functions that i forgot to test.
+
 ## Example
 
 Say for example you want to test a time parser for the format `HH:MM` where `HH` is the two digit hour and `MM` is the two digit minute. 
