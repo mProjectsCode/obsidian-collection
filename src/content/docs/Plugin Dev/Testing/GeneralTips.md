@@ -19,7 +19,7 @@ A test should do something to the subject being tested and then check that the s
 
 While code coverage can be a useful metric, you have to be aware that it simply means there is a test that runs this piece of code, but that does not say anything about the quality of the test.
 
-That being said, I find coverage reports quite useful to find functions that i forgot to test.
+That being said, I find coverage reports quite useful to find functions that I forgot to test.
 
 ## Example
 

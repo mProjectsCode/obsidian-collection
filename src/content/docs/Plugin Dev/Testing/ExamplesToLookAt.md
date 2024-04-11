@@ -14,6 +14,6 @@ description: Some plugins with good or interesting test setups.
   - large test suite, over 370 tests that take about a minute to run
 - [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)
   - uses Bun Test
-  - currently small test suite that runs in under a second
+  - currently nearly 2000 tests, with lots of loops to test different data combinations
   - uses Happy DOM as the browser environment
   - uses a lot of dependency injection to test internal components
