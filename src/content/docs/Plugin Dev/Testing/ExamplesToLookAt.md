@@ -16,4 +16,4 @@ description: Some plugins with good or interesting test setups.
   - uses Bun Test
   - currently nearly 2000 tests, with lots of loops to test different data combinations
   - uses Happy DOM as the browser environment
-  - uses a lot of dependency injection to test internal components
+  - has a separate "core" package that contains most of the logic, this "core" package is then integrated into an Obsidian plugin via a thin binding layer

@@ -11,6 +11,10 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/mProjectsCode/obsidian-collection',
 			},
+			components: {
+				TableOfContents: './src/components/TableOfContents.astro',
+				SocialIcons: './src/components/SocialIcons.astro',
+			},
 			sidebar: [
 				{
 					label: 'Plugin Dev',
